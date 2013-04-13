@@ -58,7 +58,7 @@ les lignes vides et évitera de polluer vos commits.
 `checked="checked"`),
 * Utilisez toujours les doubles guillemets pour les valeurs d'attributs,
 * Omettez l'attribut type pour les éléments `link` pour les feuilles de style, 
-`style` and `script`,
+`style` et `script`,
 * Fermez toujours vos balises,
 * N'ajoutez pas de slash pour les éléments auto-fermants.
 
@@ -69,7 +69,7 @@ Exemple :
 ```html
 <div class="tweet">
     <a href="chemin/vers/quelquepart">
-        <img src="chemin/to/image.png" alt="">
+        <img src="chemin/vers/l/image.png" alt="">
     </a>
     <p>[texte du tweet]</p>
     <button disabled>Répondre</button>
